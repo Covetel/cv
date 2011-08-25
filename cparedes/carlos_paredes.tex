@@ -1,0 +1,149 @@
+\documentclass[11pt]{moderncv}
+\moderncvtheme[blue]{casual}    % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvstyle{classic}       % idem
+\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+\firstname{Carlos}
+\familyname{Paredes}
+\title{Carlos Paredes - Curriculum-vitae-et-studiorum}
+\address{Venezuela}  % for casual style
+\phone{+58(416)1705223}
+\email{cparedes@covetel.com.ve}
+\photo{fotocv2} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Alguna frase ...}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textsf{\scriptsize#1}}}% for text subscripts
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\makequote
+
+\section{Información Personal}
+\cvitem{Lugar de Nacimiento}{\small San Cristóbal - Estado Táchira - República Bolivariana de Venezuela }
+\cvitem{Fecha de Nacimiento}{\small 28 de Febrero de 1986 }
+\cvitem{Estado Civil}{\small Soltero}
+\cvitem{Cédula de Identidad}{\small V-17.812.677}
+\cvitem{Dirección}{\small Estado Táchira, San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la Escuela Bolivariana Paramito.}
+\cvitem{Correo Electrónico}{\small capsafa@gmail.com}
+\cvitem{Skype}{\small aphu\_ane}
+
+\section{Educación}
+\cventry{Actualidad}{Ingeniería en Informática}{Instituto Universitario de Tecnología Agro Industrial Región los Andes}{}{}{ Esperando obtener el título para finales del 2011}
+\cventry{2004--2009}{Técnico Superior en Informática}{Instituto Universitario de Tecnología Agro Industrial Región los Andes}{}{}{}
+
+\section{Lenguajes}
+\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
+\cvlanguage{Ingles}{Intermedio}{Lectura, Escritura, Comprensión}
+\closesection{}
+\pagebreak{}
+
+\section{Habilidades en Computación}
+\cvcomputer{\bfseries{Sistemas Operativos}}{
+	Debian GNU/Linux, 
+	Windows (NT-2000-XP-Vista-7),
+}{\bfseries{Administración}}{
+	Open LDAP, 
+	Samba, 
+	OpenVPN,  
+	Git,  
+	Apache (Mod SSL, Mod Perl, Mod PHP), 
+	Request Tracker, 
+}
+\cvcomputer{\bfseries{Programación}}{
+	\textsc{Pascal}, 
+	C,
+	C++, 
+	SQL, 
+    Java
+}{\bfseries{Scripting}}{
+	JavaScript, 
+	Perl, 
+	PHP, 
+}
+\cvcomputer{\bfseries{Librerías}}{
+	Net::LDAP,
+	DBI,
+	DBIx::Class,
+	Catalyst,
+	HTML::FormFu,
+	Catalyst::Controller::REST,
+	Catalyst::Controller::SOAP,
+	Catalyst::Model::SOAP,
+	Catalyst::View::GD,
+	Catalyst::Model::LDAP,
+	Moose,
+}{\bfseries{Tipografía, Diseño y Animación}}{
+	\LaTeX,
+    OpenOffice, 
+    Microsft Office, 
+	Adobe Photoshop, 
+    Adobe Illustrator,
+    Adobe Photoshop,
+    Adobe Flash, 
+	Inkscape, 
+	Gimp
+}
+\cvcomputer{\bfseries{Desarrollo Web}}{
+	Catalyst Framework,
+	XML,  
+	HTML, 
+	XHTML, 
+	CSS, 
+	AJAX,
+    Adobe Dreamweaver, 
+	Patrones de Diseño
+}{\bfseries{Base de Datos}}{
+	MySQL, 
+	PostgreSQL, 
+	SQLite, 
+	Firebird, 
+}
+
+\section{Habilidades en Electrónica}
+\cvcomputer{\bfseries{Instrumentación}}{
+	Manejo de Cautin, Multimetro y construcción básica de circuitos impresos.
+}{\bfseries{Radio Difusión}}{
+	Operación de equipos de radio difusión como consolas mezcladoras, ecualizadores, filtros, y equipos de trasmisión como FM/AEQ, micrófonos, construcción de cables XLR a medida.  
+}
+
+\section{Experiencia}
+\cventry{Actualidad}{Instancia de Administración y
+Control}{\bfseries{Asociación Cooperativa Venezolana de Tecnologías Libres R.S.
+(COVETEL)}}{San Cristóbal}{ Responsable de las siguientes áreas: Secretaía, Ventas, Proyectos }{}{}
+\cventry{Noviembre 2009--Marzo 2011}{Obrero de Construcción}{\bfseries{Particular}}{San Cristóbal}{Obrero en el área de Construcción}{Labores Desempeñadas: Electricidad, Plomeria, Albañileria, Pintura.}{}
+\cventry{Noviembre 2005--Febrero 2007}{Jefe de Departamento de Servicio Técnico}{Distribuidora PC-Arts C.A.}{San Cristóbal}{Responsabilidades: Supervisar y realizar labores en el área de mantenimiento de equipos de computación, impresoras. Apoyo en el área de ventas y deposito.}{}
+
+\section{Cursos}
+\cventry{Mayo 2005--Junio 2005}{Participante}{Reparación y Mantenimiento de Equipos de Computación}{San Cristóbal / Instituto Universitario de la Frontera (IUFRONT)}{Duracion: 16 horas (Ing. Vidermid Sánchez.)}{}{}
+
+\section{Intereses}
+\cvitem{Deportes}{\small Fútbol, Lucha Olimpica, Judo.}
+\cvitem{Bricolaje}{\small Construcción y Mecánica.}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{jdoe_publications}
+
+\end{document}
+
+%% end of file `jdoe_casual.tex'.
