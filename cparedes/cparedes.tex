@@ -22,18 +22,18 @@
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
 % personal data
-\firstname{John}
-\familyname{Doe}
-\title{Resumé title (optional)}               % optional, remove the line if not wanted
-\address{Manzana 18, Parcela 24 Calle 7 los Sauces}{San Cristóbal - Edo Táchira}    % optional, remove the line if not wanted
-\mobile{mobile (optional)}                    % optional, remove the line if not wanted
-\phone{phone (optional)}                      % optional, remove the line if not wanted
-\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{email (optional)}                      % optional, remove the line if not wanted
-\homepage{homepage (optional)}                % optional, remove the line if not wanted
-\extrainfo{additional information (optional)} % optional, remove the line if not wanted
-\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+\firstname{Carlos}
+\familyname{Paredes}
+\title{Carlos Paredes - Currículum Vítae}     % optional, remove the line if not wanted
+\address{Estado Táchira, San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la Escuela Bolivariana Paramito}    % optional, remove the line if not wanted
+\mobile{58(416)1705223}                    % optional, remove the line if not wanted
+\phone{58(276)4169352}                      % optional, remove the line if not wanted
+\email{cparedes@covetel.com.ve}             % optional, remove the line if not wanted
+\Skype{aphu\_ane}
+%\homepage{homepage (optional)}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{fotocv2}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
@@ -51,19 +51,100 @@
 \begin{document}
 \maketitle
 
-\section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\section{Información Personal}
+\cvitem{Lugar de Nacimiento}{\small San Cristóbal - Estado Táchira - República Bolivariana de Venezuela }
+\cvitem{Fecha de Nacimiento}{\small 28 de Febrero de 1986 }
+\cvitem{Estado Civil}{\small Soltero}
+\cvitem{Cédula de Identidad}{\small V-17.812.677}
+\cvitem{Dirección}{\small Estado Táchira, San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la Escuela Bolivariana Paramito.}
+\cvitem{Correo Electrónico}{\small capsafa@gmail.com}
+\cvitem{Skype}{\small aphu\_ane}
 
-\section{Master thesis}
-\cvline{title}{\emph{Title}}
-\cvline{supervisors}{Supervisors}
-\cvline{description}{\small Short thesis abstract}
+\section{Educación}
+\cventry{Actualidad}{}{Ingeniería en Informática}{Instituto Universitario de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado
+Táchira}{\textit{Ingeniero}}{Esperando obtener el título para mediados del 2012}  % arguments 3 to 6 can be left empty
+\cventry{2004--2009}{Técnico Superior en Informática}}{Instituto Universitario
+de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira}}{\textit{TSU}}{}
 
-\section{Experience}
-\subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
-Detailed achievements:%
+\section{Habilidades en Computación}
+\cvcomputer{\bfseries{Sistemas Operativos}}{
+	Debian GNU/Linux,
+    Ubuntu, 
+    Knoppix,
+    MAndrake, 
+	Windows (NT-2000-XP-Vista-7),
+}{\bfseries{Administración}}{
+	Open LDAP, 
+	Samba, 
+	OpenVPN,  
+	Git,  
+	Apache (Mod SSL, Mod Perl, Mod PHP), 
+	Request Tracker, 
+}
+\cvcomputer{\bfseries{Programación}}{
+	\textsc{Pascal}, 
+	C,
+	C++, 
+	SQL, 
+    Java
+}{\bfseries{Scripting}}{
+	JavaScript, 
+	Perl, 
+	PHP, 
+}
+\cvcomputer{\bfseries{Librerías}}{
+	Net::LDAP,
+	DBI,
+	DBIx::Class,
+	Catalyst,
+	HTML::FormFu,
+	Catalyst::Controller::REST,
+	Catalyst::Controller::SOAP,
+	Catalyst::Model::SOAP,
+	Catalyst::View::GD,
+	Catalyst::Model::LDAP,
+	Moose,
+}{\bfseries{Tipografía, Diseño y Animación}}{
+	\LaTeX,
+    OpenOffice, 
+    Microsft Office, 
+	Adobe Photoshop, 
+    Adobe Illustrator,
+    Adobe Photoshop,
+    Adobe Flash, 
+	Inkscape, 
+	Gimp
+}
+\cvcomputer{\bfseries{Desarrollo Web}}{
+	Catalyst Framework,
+	XML,  
+	HTML, 
+	XHTML, 
+	CSS, 
+	AJAX,
+    Adobe Dreamweaver, 
+	Patrones de Diseño
+}{\bfseries{Base de Datos}}{
+	MySQL, 
+	PostgreSQL, 
+	SQLite, 
+	Firebird, 
+}
+
+\section{Habilidades en Electrónica}
+\cvcomputer{\bfseries{Instrumentación}}{
+	Manejo de Cautin, Multimetro y construcción básica de circuitos impresos.
+}{\bfseries{Radio Difusión}}{
+	Operación de equipos de radio difusión como consolas mezcladoras, ecualizadores, filtros, y equipos de trasmisión como FM/AEQ, micrófonos, construcción de cables XLR a medida.  
+}
+
+\section{Experiencia}
+\subsection{Vocacional}
+\cventry{Actualidad}{Caliento Banca}}{Asociación Cooperativa Venezolana de Tecnologías Libres R.S.
+(COVETEL)}{San Cristóbal Estado Táchira}{}{ Responsabilidades: Desarrollador de software.}
+\cventry{2005--2007}{Jefe de Departamento de Servicio Técnico}}{Distribuidora
+PC-Arts}{San Cristóbal Estado Táchira}{}{Responsabilidades: Supervisar y realizar labores en el área de mantenimiento de equipos de computación, impresoras. Apoyo en el área de ventas y deposito..\newline{}%
+Logros Detallados:%
 \begin{itemize}%
 \item Achievement 1;
 \item Achievement 2, with sub-achievements:
@@ -81,34 +162,20 @@ Detailed achievements:%
 \end{itemize}}
 \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
 \subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2009--2011}{Obrero de Construcción}{Particular}{San Cristóbal}{}{Labores Desempeñadas: Electricidad, Plomeria, Albañileria, Pintura.}
 
-\section{Languages}
-\cvlanguage{Language 1}{Skill level}{Comment}
-\cvlanguage{Language 2}{Skill level}{Comment}
-\cvlanguage{Language 3}{Skill level}{Comment}
+\section{Lenguajes}
+\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
+\cvlanguage{Ingles}{Intermedio}{Lectura, Escritura, Comprensión}
 
-\section{Computer skills}
-\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+\section{Cursos}
+\cvitem{Mayo 2005--Junio 2005}{Participante}{Reparación y Mantenimiento de Equipos de Computación}{San Cristóbal / Instituto Universitario de la Frontera (IUFRONT)}{Duracion: 16 horas (Ing. Vidermid Sánchez.)}{}{}
 
-\section{Interests}
-\cvline{hobby 1}{\small Description}
-\cvline{hobby 2}{\small Description}
-\cvline{hobby 3}{\small Description}
-
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem[+]{Item 3}            % optional other symbol
+\section{Intereses}
+\cvline{Deportes}{\small Fútbol, Lucha Olimpica, Judo.}
+\cvline{Bricolaje}{\small Construcción y Mecánica.}
 
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
-
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
-\cvlistdoubleitem{Item 3}{}
 
 % Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
 \nocite{*}
