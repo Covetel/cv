@@ -1,0 +1,6 @@
+Dependencias: 
+    aptitude install texlive-latex-extra texlive-fonts-recommended lmodern
+
+Entrar en la carpeta correspondiente, actualizar y luego ejectuar el comando
+make sin argumentos.
+    make 
