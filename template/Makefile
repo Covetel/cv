@@ -8,9 +8,8 @@ all: cv clean
 
 cv: ${NAME}.pdf
 
-${NAME}.pdf: 
+${NAME}.pdf: ${NAME}.tex 
 	pdflatex ${NAME}.tex
-	mkdir -p pdf
-	mv ${NAME}.pdf pdf/
+
 clean: 
 	rm -f *.aux *.log *.out *.ps *.toc *.nav *.snm *.dvi;
