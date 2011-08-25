@@ -20,20 +20,21 @@
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
-
-% personal data
+% ----------------------------------
+% --------- personal data ----------
+% ----------------------------------
 \firstname{Luis Alfredo}
 \familyname{da Silva}
-\title{Resumé title (optional)}               % optional, remove the line if not wanted
-\address{Manzana 18, Parcela 24 Calle 7 los Sauces}{San Cristóbal - Edo Táchira}    % optional, remove the line if not wanted
-\mobile{mobile (optional)}                    % optional, remove the line if not wanted
-\phone{phone (optional)}                      % optional, remove the line if not wanted
-\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{email (optional)}                      % optional, remove the line if not wanted
+\title{Currículo Vitae}               % optional, remove the line if not wanted
+\address{Urb. Sinaral, Calle 3}{San Cristóbal - Edo Táchira}    % optional, remove the line if not wanted
+\mobile{+58(424)7834484}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{luisdasilva@covetel.com.ve}                      % optional, remove the line if not wanted
 \homepage{homepage (optional)}                % optional, remove the line if not wanted
-\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\extrainfo{additional information} % optional, remove the line if not wanted
 \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+\quote{Es opcional}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
@@ -51,14 +52,22 @@
 \begin{document}
 \maketitle
 
-\section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\section{Información Personal}
+\cvitem
+\cvitem{Fecha de Nacimiento}{\small 8 de Mayo de 1991}
+\cvitem{Estado Civil}{\small Soltero}
+\cvitem{Cédula de Identidad}{\small V-20.232.871}
+%\cvitem{Dirección}{\small Estado Táchira, Urb. Altos de Paramillo, manzana 18, parcela 24, calle 7 los sauces.}
+\cvitem{Correo Electrónico}{\small xyklex@gmail.com}
+\cvitem{Skype}{\small bryant\_dasilva}
 
-\section{Master thesis}
-\cvline{title}{\emph{Title}}
-\cvline{supervisors}{Supervisors}
-\cvline{description}{\small Short thesis abstract}
+\section{Educación}
+\cventry{2008-Actualidad}{Ingeniería en Informática}{Universidad Experimental del Táchira (UNET)}{}{\textit{}}{}  % arguments 3 to 6 can be left empty
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
 
 \section{Experience}
 \subsection{Vocational}
@@ -83,20 +92,39 @@ Detailed achievements:%
 \subsection{Miscellaneous}
 \cventry{year--year}{Job title}{Employer}{City}{}{Description}
 
-\section{Languages}
-\cvlanguage{Language 1}{Skill level}{Comment}
-\cvlanguage{Language 2}{Skill level}{Comment}
-\cvlanguage{Language 3}{Skill level}{Comment}
+\section{Lenguajes}
+\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
+\cvlanguage{Inglés}{Intermedio}{Lectura, Escritura, Compresión}
 
-\section{Computer skills}
-\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+\section{Habilidades en Computación}
+\cvcomputer{\bfseries{Sistemas Operativos}}{
+	Debian GNU/Linux,
+	Arch Linux,
+	Ubuntu GNU/Linux,
+	Windows NT/2000/XP/Vista/7
+}{\bfseries{Administración}}{
+	Git,
+	Request Tracker,
+	Apache
+}
+\cvcomputer{\bfseries{Programación}}{
+	C,
+	C++
+}{\bfseries{Scripting}}{
+	Perl,
+	PHP,
+	JavaScript
+}
+\cvcomputesr{\bfseries{Librerías}}{
+	Catalyst,
+	HTML::FormFu,
+	QT
+}{\bfseries{Tipografía y Diseño}}{
+	\LaTeX
+}
 
-\section{Interests}
-\cvline{hobby 1}{\small Description}
-\cvline{hobby 2}{\small Description}
-\cvline{hobby 3}{\small Description}
+\section{Intereses}
+\cvline{Deportes}{\small Natación, Ciclismo, Carrera a pie}
 
 \section{Extra 1}
 \cvlistitem{Item 1}
