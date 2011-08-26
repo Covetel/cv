@@ -18,23 +18,21 @@
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
-%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+\AtBeginDocument{\setlength{\maketitlenamewidth}{8cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 % ----------------------------------
 % --------- personal data ----------
 % ----------------------------------
-\firstname{LuisAlfredo}
-\familyname{daSilva}
-\title{Currículo Vitae}               % optional, remove the line if not wanted
-\address{Urb. Sinaral, Calle 3}{San Cristóbal - Edo Táchira}    % optional, remove the line if not wanted
+\firstname{Luis Alfredo}
+\familyname{\\da Silva}
+%\title{Currículo Vitae}               % optional, remove the line if not wanted
+\address{Urb Sinaral, Calle 3}{San Cristóbal - Edo Táchira}    % optional, remove the line if not wanted
 \mobile{+58(424)7834484}                    % optional, remove the line if not wanted
-%\phone{phone (optional)}                      % optional, remove the line if not wanted
-%\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{luisdasilva@covetel.com.ve}                      % optional, remove the line if not wanted
+\email{luisdasilva@covetel.com.ve \\ xyklex@gmail.com}                      % optional, remove the line if not wanted
 \homepage{http://goo.gl/cSHXh}                % optional, remove the line if not wanted
-\extrainfo{Joven entusiasta, soñador y emprendedor. me gusta la ciencia en general, la música y las energías alternativas} % optional, remove the line if not wanted
+\extrainfo{} % optional, remove the line if not wanted
 \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{Es opcional}                 % optional, remove the line if not wanted
+\quote{Si lo puedes soñar, lo puedes hacer -- Walt Disney}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
@@ -45,7 +43,7 @@
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
 
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -56,40 +54,11 @@
 \cvitem{Fecha de Nacimiento}{\small 8 de Mayo de 1991}
 \cvitem{Estado Civil}{\small Soltero}
 \cvitem{Cédula de Identidad}{\small V-20.232.871}
-%\cvitem{Dirección}{\small Estado Táchira, Urb. Altos de Paramillo, manzana 18, parcela 24, calle 7 los sauces.}
 \cvitem{Correo Electrónico}{\small xyklex@gmail.com}
 \cvitem{Skype}{\small bryant\_dasilva}
 
 \section{Educación}
-\cventry{2008-Actualidad}{Ingeniería en Informática}{Universidad Experimental del Táchira (UNET)}{}{\textit{}}{}  % arguments 3 to 6 can be left empty
-
-\section{Otra info}
-\cvline{Titulo}{\emph{Este es el titulo}}
-\cvline{Descripción}{\small breve descripcion}
-
-\section{Experiencia}
-\subsection{Vocacional}
-\cventry{2010-Actualidad}{Desarrollador}{Covetel R.S.}{San
-Cristóbal}{}{Descripción del trabajo.no maximo de 2 lineas.\newline{}}
-%Detailed achievements:
-%\begin{itemize}%
-%\item Achievement 1;
-%\item Achievement 2, with sub-achievements:
-%  \begin{itemize}%
-%  \item Sub-achievement (a);
-%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-%    \begin{itemize}
-%    \item Sub-sub-achievement i;
-%    \item Sub-sub-achievement ii;
-%    \item Sub-sub-achievement iii;
-%    \end{itemize}
-%  \item Sub-achievement (c);
-%  \end{itemize}
-%\item Achievement 3.
-%\end{itemize}}
-
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2008--\\Actualidad}{Pregrado}{Universidad Experimental del Táchira (UNET)}{San Cristóbal}{\textit{Ingeniería en Informatica}}{	}  % arguments 3 to 6 can be left empty
 
 \section{Lenguajes}
 \cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
@@ -99,7 +68,7 @@ Cristóbal}{}{Descripción del trabajo.no maximo de 2 lineas.\newline{}}
 \cvcomputer{\bfseries{Sistemas Operativos}}{
 	Debian GNU/Linux,
 	Arch Linux,
-	Ubuntu GNU/Linux,
+	Ubuntu,
 	Windows NT/2000/XP/Vista/7
 }{\bfseries{Administración}}{
 	Git,
@@ -108,7 +77,8 @@ Cristóbal}{}{Descripción del trabajo.no maximo de 2 lineas.\newline{}}
 }
 \cvcomputer{\bfseries{Programación}}{
 	C,
-	C++
+	C++,
+	Java
 }{\bfseries{Scripting}}{
 	Perl,
 	PHP,
@@ -122,22 +92,23 @@ Cristóbal}{}{Descripción del trabajo.no maximo de 2 lineas.\newline{}}
 	\LaTeX
 }
 
+\section{Experiencia}
+\subsection{Vocacional}
+\cventry{Diciembre 2010--\\Actualidad}{Desarrollador}{Cooperativa Venezolana de Tecnologías Libres R.S. (COVETEL)}{San Cristóbal}{Descripción del trabajo.no maximo de 2 lineas.}{Otros comentarios}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
 \section{Intereses}
 \cvline{Deportes}{\small Natación, Ciclismo, Carrera a pie}
+
+%\section{Otra info}
+%\cvline{Titulo}{\emph{Este es el titulo}}
+%\cvline{Descripción}{\small breve descripcion}
 
 % Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{publications}       % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
 
 \end{document}
 
