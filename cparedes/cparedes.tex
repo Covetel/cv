@@ -24,16 +24,17 @@
 % personal data
 \firstname{Carlos}
 \familyname{Paredes}
-\title{Carlos Paredes - Currículum Vítae}     % optional, remove the line if not wanted
-\address{Estado Táchira, San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la Escuela Bolivariana Paramito}    % optional, remove the line if not wanted
-\mobile{58(416)1705223}                    % optional, remove the line if not wanted
-\phone{58(276)4169352}                      % optional, remove the line if not wanted
-\email{cparedes@covetel.com.ve}             % optional, remove the line if not wanted
-\Skype{aphu\_ane}
-%\homepage{homepage (optional)}                % optional, remove the line if not wanted
-%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
-\photo[64pt]{fotocv2}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+\title{Carlos Paredes Curriculum Vítae}               % optional, remove the line if not wanted
+\address{San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la
+Escuela Bolivariana Paramito}{Estado Táchira}    % optional, remove the line if not wanted
+\mobile{+58(416)5023757}                    % optional, remove the line if not wanted
+\phone{+58(276)4169352}                          % optional, remove the line if not wanted
+%\fax{}
+\email{cparedes@covetel.com.ve \\ capsafa@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{goo.gl/eTlJu}                % optional, remove the line if not wanted
+\extrainfo{} % optional, remove the line if not wanted
+\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
@@ -52,42 +53,43 @@
 \maketitle
 
 \section{Información Personal}
-\cvitem{Lugar de Nacimiento}{\small San Cristóbal - Estado Táchira - República Bolivariana de Venezuela }
-\cvitem{Fecha de Nacimiento}{\small 28 de Febrero de 1986 }
+\cvitem{Lugar de Nacimiento}{\small San Cristóbal - Estado Táchira - República Bolivariana de Venezuela}
+\cvitem{Fecha de Nacimiento}{\small 28 de Febrero de 1986}
 \cvitem{Estado Civil}{\small Soltero}
 \cvitem{Cédula de Identidad}{\small V-17.812.677}
-\cvitem{Dirección}{\small Estado Táchira, San Rafael vía Cordero Sector Paramito casa sin numero diagonal a la Escuela Bolivariana Paramito.}
-\cvitem{Correo Electrónico}{\small capsafa@gmail.com}
 \cvitem{Skype}{\small aphu\_ane}
 
 \section{Educación}
-\cventry{Actualidad}{}{Ingeniería en Informática}{Instituto Universitario de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado
-Táchira}{\textit{Ingeniero}}{Esperando obtener el título para mediados del 2012}  % arguments 3 to 6 can be left empty
-\cventry{2004--2009}{Técnico Superior en Informática}}{Instituto Universitario
-de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira}}{\textit{TSU}}{}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\cventry{Actualidad}{Pregrado}{Instituto Universitario de
+Tecnología Agro Industrial Región los Andes}{San Cristóbal}{Ingeniería
+Informática}{Esperando obtener el título para mayo del 2012}
 
-\section{Experiencia}
-\subsection{Vocacional}
-\cvitem{Actualidad}{Caliento Banca}{Asociación Cooperativa Venezolana de Tecnologías Libres R.S.
-(COVETEL)}{San Cristóbal Estado Táchira}{ Responsabilidades: Desarrollador de software.}
-\cvitem{2005--2007}{Jefe de Departamento de Servicio Técnico}{Distribuidora PC-Arts}{San Cristóbal Estado Táchira}{Responsabilidades: Supervisar y realizar labores en el área de mantenimiento de equipos de computación, impresoras. Apoyo en el área de ventas y deposito.}
-\subsection{Miscellaneous}
-\cvitem{2009--2011}{Obrero de Construcción}{Particular}{San Cristóbal}{}{Labores Desempeñadas: Electricidad, Plomeria, Albañileria, Pintura.}
+\cventry{2002--2009}{Pregrado}{Instituto Universitario de Tecnología Agro
+Industrial Región los Andes}{San Cristóbal}{Tecnico Superior en Informática}{}
+
+\section{Lenguajes}
+\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
+\cvlanguage{Ingles}{Intermedio}{Lectura, Escritura, Comprensión}
 
 \section{Habilidades en Computación}
 \cvcomputer{\bfseries{Sistemas Operativos}}{
-	Debian GNU/Linux,
+	Debian GNU/Linux (Especialmente), 
     Ubuntu, 
-    Knoppix,
-    MAndrake, 
-	Windows (NT-2000-XP-Vista-7),
+    Knoppix, 
+    Mandrake, 
+	Windows (NT-2000-XP-Vista-7)
 }{\bfseries{Administración}}{
-	Open LDAP, 
+	OpenLDAP, 
+	DNS, DHCP,
+	Postfix, 
+	Dovecot, 
 	Samba, 
-	OpenVPN,  
-	Git,  
-	Apache (Mod SSL, Mod Perl, Mod PHP), 
-	Request Tracker, 
+	OpenVPN, 
+	OpenSSL, 
+	Git, 
+    FAI, 
+	Apache (Mod SSL, Mod Perl, Mod PHP)
 }
 \cvcomputer{\bfseries{Programación}}{
 	\textsc{Pascal}, 
@@ -96,9 +98,11 @@ de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira
 	SQL, 
     Java
 }{\bfseries{Scripting}}{
+	Perl (Especialmente), 
 	JavaScript, 
-	Perl, 
+	Bash, 
 	PHP, 
+ 	Ruby
 }
 \cvcomputer{\bfseries{Librerías}}{
 	Net::LDAP,
@@ -106,14 +110,18 @@ de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira
 	DBIx::Class,
 	Catalyst,
 	HTML::FormFu,
+	Config::General,
+    Template::Toolkit, 
 	Catalyst::Controller::REST,
 	Catalyst::Controller::SOAP,
 	Catalyst::Model::SOAP,
 	Catalyst::View::GD,
 	Catalyst::Model::LDAP,
 	Moose,
-}{\bfseries{Tipografía, Diseño y Animación}}{
-	\LaTeX,
+	Data::Dumper,
+    File::Basename
+}{\bfseries{Tipografía y Diseño}}{
+	\LaTeX, 
     OpenOffice, 
     Microsft Office, 
 	Adobe Photoshop, 
@@ -125,39 +133,57 @@ de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira
 }
 \cvcomputer{\bfseries{Desarrollo Web}}{
 	Catalyst Framework,
-	XML,  
+	XML, 
 	HTML, 
 	XHTML, 
 	CSS, 
-	AJAX,
+	AJAX, 
     Adobe Dreamweaver, 
+	REST,
 	Patrones de Diseño
 }{\bfseries{Base de Datos}}{
-	MySQL, 
 	PostgreSQL, 
 	SQLite, 
-	Firebird, 
+	MySQL, 
+    Firebird 
+}
+\cvcomputer{\bfseries{Virtualizacion}}{
+    OpenVZ, 
+    KVM, 
+    VMware, 
+    Proxmox
+}{\bfseries{Microsoft}}{
+	Windows Server 2000/2003, 
+	Windows Management Instrumentation (WMI), 
+	Win32::Process::Info, 
+    Win32::OLE, 
+    Active Directory, 
+	Active Directory Service Interfaces (ADSI), 
+    Microsoft Exchange, 
 }
 
 \section{Habilidades en Electrónica}
 \cvcomputer{\bfseries{Instrumentación}}{
-	Manejo de Cautin, Multimetro y construcción básica de circuitos impresos.
-}{\bfseries{Radio Difusión}}{
-	Operación de equipos de radio difusión como consolas mezcladoras, ecualizadores, filtros, y equipos de trasmisión como FM/AEQ, micrófonos, construcción de cables XLR a medida.  
-}
-
-\section{Lenguajes}
-\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
-\cvlanguage{Ingles}{Intermedio}{Lectura, Escritura, Comprensión}
+	Manejo de Cautin, Multimetro y construcción básica de circuitos
+impresos.}{}{}
 
 \section{Cursos}
-\cvitem{Mayo 2005--Junio 2005}{Participante}{Reparación y Mantenimiento de Equipos de Computación}{San Cristóbal / Instituto Universitario de la Frontera (IUFRONT)}{Duracion: 16 horas (Ing. Vidermid Sánchez.)}{}{}
+\cvitem{Mayo 2005--Junio 2005}{Participante}{Reparación y Mantenimiento de Equipos de Computación}{ San Cristóbal / Instituto Universitario de la Frontera (IUFRONT)}{Duracion: 16 horas (Ing. Vidermid Sánchez.)}{}{}
+
+\section{Experiencia}
+
+\subsection{Vocacional}
+\cvitem{Actualidad}{Desarrollador}{Asociación Cooperativa Venezolana de Tecnologías Libres R.S.(COVETEL)}{ San Cristóbal Estado Táchira}{ \\ Responsabilidades: Desarrollador de software.}{}{}
+
+\bigskip
+\cvitem{2005--2007}{Jefe de Departamento de Servicio Técnico}{Distribuidora PC-Arts}{ San Cristóbal Estado Táchira}{ \\ Responsabilidades: Supervisar y realizar labores en el área de mantenimiento de equipos de computación, impresoras. Apoyo en el área de ventas y deposito.}{}{}
+
+\subsection{Miscellaneous}
+\cvitem{2009--2011}{Obrero de Construcción}{ Particular}{ San Cristóbal}{ \\ Labores Desempeñadas: Electricidad, Plomeria, Albañileria, Pintura.}{}{}
 
 \section{Intereses}
 \cvline{Deportes}{\small Fútbol, Lucha Olimpica, Judo.}
 \cvline{Bricolaje}{\small Construcción y Mecánica.}
-
-\renewcommand{\listitemsymbol}{-} % change the symbol for lists
 
 % Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
 \nocite{*}
@@ -176,4 +202,4 @@ de Tecnología Agro Industrial Región los Andes}{San Cristóbal Estado Táchira
 \end{document}
 
 
-%% end of file `template_en.tex'.
+%% end of file `walter.tex'.
