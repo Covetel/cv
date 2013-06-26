@@ -1,0 +1,11 @@
+# Latex garbage #
+#################
+
+*.aux
+*.log
+*.out
+*.ps
+*.toc
+*.nav
+*.snm
+*.dvi
