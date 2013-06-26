@@ -1,0 +1,132 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{../template/moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Walter}
+\familyname{Vargas}
+\title{Walter Vargas Curriculum vitae et studiorum}               % optional, remove the line if not wanted
+\address{Edf. Don Pedro - 1era Transversal de los Palos Grandes}{Chacao - Miranda}    % optional, remove the line if not wanted
+\mobile{+58(416)5023755}                    % optional, remove the line if not wanted
+%\phone{}                      % optional, remove the line if not wanted
+\fax{+58(276)3571649}                          % optional, remove the line if not wanted
+\email{walter@covetel.com.ve \\ waltervargas@gmail.com \\ wvargas@cpan.org}                      % optional, remove the line if not wanted
+\homepage{goo.gl/eTlJu}                % optional, remove the line if not wanted
+\extrainfo{} % optional, remove the line if not wanted
+\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{El mayor enemigo del conocimiento no es la ignorancia, sino la ilusión
+del conocimiento -- Stephen Hawking}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Información Personal}
+\cvitem{Lugar de Nacimiento}{\small Caracas - República Bolivariana de Venezuela }
+\cvitem{Fecha de Nacimiento}{\small 17 de Febrero de 1985 }
+\cvitem{Estado Civil}{\small Soltero}
+\cvitem{Cédula de Identidad}{\small V-16.612.574}
+\cvitem{GNU/Linux User ID}{\small 268566}
+\cvitem{Skype}{\small waltervargasm}
+
+\section{Educación}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\cventry{2009--2012}{Pregrado}{Instituto Universitario de
+Tecnología Agro Industrial Región los Andes}{San Cristóbal}{Ingeniería
+Informática}{Título Obtenido: Ingeniero en Informática}
+
+\cventry{2002--2009}{Pregrado}{Instituto Universitario de Tecnología Agro
+Industrial Región los Andes}{San Cristóbal}{Técnico}{Título Obtenido: Tecnico Superior en Informática}{}
+
+\section{Lenguajes}
+\cvlanguage{Español}{Nativo}{Lectura, Escritura, Comprensión}
+\cvlanguage{Ingles}{Intermedio}{Lectura, Escritura, Comprensión}
+
+\section{Experiencia}
+
+\cventry{Actualidad}{Contratista}{\bfseries{CANTV}}{Caracas}{ Migración a
+Software Libre de los siguientes servicios: Plataforma de Correo Corporativo
+(Exchange), Plataforma DNS Corporativo, DHCP Corporativo, Autenticación y
+Calendario Colaborativo}{}{}%
+
+\cventry{Julio 2010--\\Actualidad}{Contratista}{\bfseries{Centro Nacional de Tecnologías de Información (CNTI)}}{San Cristóbal}{Soporte de 4to Nivel bajo la figura de acompañamiento para la Gerencia de Plataforma Tecnológica CNTI}{Tecnologías Involucradas: XEN, KVM, PROXMOX, OCS Inventory, PostgreSQL, Mysql, Perl, PHP, Asesoría para la creación de planes de prevención y contingencia de los servicios, Mantener la disponibilidad de los servicios de las plataformas, Correo, DHCP, DNS, Firewalls, OpenLDAP, Puppet, CFEngine, Trac, SVN, GIT, MoinMoin, Request Tracker, OpenLDAP + Samba, VPN, Firewall, Infraestructura de PKI, Aseguramiento de aplicaciones, Infraestructura de Autenticación y Autorización LDAP, Pruebas de Penetración, Assesment de Vulnerabilidades, Hardening de Servicios, SGSI + ISO 27001-2, Investigación Forense, Telefonía IP, Nagios, Zabbix, OSSIM, Heartbeat V2, DRBD, Linux-HA, OCFS2, iSCSI, Cluster XEN, Open Cluster Framework.}{}
+
+\cventry{Diciembre 2007--\\Actualidad}{Coordinador General}{\bfseries{Asociación Cooperativa Venezolana de Tecnologías Libres R.S. (COVETEL)}}{San Cristóbal}{ Responsable de las siguientes áreas: Coordinación, Gerencia, Ventas, Proyectos }{}{}
+
+\cventry{Julio 2010--\\Actualidad}{Contratista}{\bfseries{Centro Nacional de Tecnologías de Información (CNTI)}}{San Cristóbal}{Soporte de 4to Nivel bajo la figura de acompañamiento para la Gerencia de Plataforma Tecnológica CNTI}{Tecnologías Involucradas: XEN, KVM, PROXMOX, OCS Inventory, PostgreSQL, Mysql, Perl, PHP, Asesoría para la creación de planes de prevención y contingencia de los servicios, Mantener la disponibilidad de los servicios de las plataformas, Correo, DHCP, DNS, Firewalls, OpenLDAP, Puppet, CFEngine, Trac, SVN, GIT, MoinMoin, Request Tracker, OpenLDAP + Samba, VPN, Firewall, Infraestructura de PKI, Aseguramiento de aplicaciones, Infraestructura de Autenticación y Autorización LDAP, Pruebas de Penetración, Assesment de Vulnerabilidades, Hardening de Servicios, SGSI + ISO 27001-2, Investigación Forense, Telefonía IP, Nagios, Zabbix, OSSIM, Heartbeat V2, DRBD, Linux-HA, OCFS2, iSCSI, Cluster XEN, Open Cluster Framework.}{}
+
+\cventry{Junio 2010--\\Actualidad}{Contratista}{\bfseries{Centro Nacional de Tecnologías de Información (CNTI)}}{San Cristóbal}{Desarrollo del Sistema para la Elaboración Automatizada de Carnets Institucionales basado en LDAP}{Tecnologías Involucradas: OpenLDAP, Perl, Catalyst Framework, HTML::FormFu, Moose, REST, GD, File::Tar, XHTML, CSS, AJAX}{}
+
+\cventry{Enero 2010--\\Actualidad}{Contratista}{\bfseries{Centro Nacional de Tecnologías de Información (CNTI)}}{San Cristóbal}{Desarrollo del Sistema para la Automatización del protocolo de prueba de portales de Internet | Nota: Este proyecto lo desarrolla el equipo de Covetel al cual pertenezco}{Tecnologías Involucradas: Perl, Catalyst Framework, HTML::FormFu, Moose, PostgreSQL, DBIx::Class, REST, SOAP, WSDL, OpenLDAP}{}
+
+\cventry{Enero 2010--\\Actualidad}{Contratista}{\bfseries{Compañía Anónima Nacional Teléfonos de Venezuela (CANTV)}}{San Cristóbal}{Despliegue Satelital Simón Bolívar}{Responsabilidades: Instalación, Puesta a Punto y Mantenimiento de las terminales terrestres del Satélite Simón Bolivar en el estado Táchira}{}
+
+\cventry{Noviembre 2009--\\Diciembre 2009}{Contratista}{\bfseries{Compañía Anónima Nacional Teléfonos de Venezuela (CANTV)}}{Caracas}{Fue Dictado un Curso Especializado e Intensivo de Xen - LDAP - Correo - Samba - Alta Disponibilidad al Equipo del Proyecto de Migración a Software Libre CANTV}{Tecnologías Involucradas: XEN, OpenLDAP, Postfix, Dovecot, Samba}{}
+
+\cventry{Mayo 2009--\\Agosto 2009}{Contratista}{\bfseries{Compañía Anónima Nacional Teléfonos de Venezuela (CANTV) | Presidencia de la República Bolivariana de Venezuela}}{Caracas}{Asesorías para la creación de una plataforma de Telefonía IP basada en Asterisk con SER, escalable para la Presidencia de la República Bolivariana de Venezuela}{Tecnologías Involucradas: XEN, OpenLDAP, Postfix, Dovecot, Samba}{}
+
+\cventry{Noviembre 2008--\\Enero 2010}{Contratista}{\bfseries{Ministerio del Poder Popular para Economía y Finanzas}}{Caracas}{Migración y Acondicionamiento de la Plataforma de Servicios}{Actividades (Realizadas por el equipo de Covetel, al cual pertenezco): Implementación de un Laboratorio de Migración, Adecuación de la Plataforma de Virtualización, Migración de cuentas de usuario desde AD Windows 2000 a OpenLDAP, Migración de los buzones al nuevo servidor de correo, Implementación de un Proxy con control parental, Implementación de un servidor de correo Postfix + Dovecot, Implementación servidor DNS Primario utilizando Bind integrado a OpenLDAP, Implementación de un servidor DNS Cache, Implementación de un servidor SAMBA PDC, Transferencia Tecnológica y Soporte a la plataforma durante ese periodo
+ }{}
+
+\cventry{Junio 2009--\\Diciembre 2009}{Contratista}{\bfseries{Centro Nacional de Tecnologías de Información (CNTI)}}{Caracas}{Construcción del Kit de Servicios, Nota: Este proyecto fue realizado por el equipo de Covetel, al cual pertenezco}{Partes del Kit de Servicios: Xen, OpenLDAP, TinyCA, Postfix, Dovecot, Thunderbird, RoundCube, Spamassassin, Dspam, ClamAV, Amavis-new, NTP, Firewall (Iptables), OpenVPN, DNS Integrado a LDAP, DHCP Integrado a LDAP, FreeRadius y autenticación 802.1X, Apache2 (Autenticación y VHOST integrados a LDAP), Samba (PDC, BDC, Servidor de Impresion y Servidor de Archivos), FAI, Puppet, SystemImager}{}
+
+\cventry{Julio 2009--\\Agosto 2009}{Apoyo Voluntario}{\bfseries{Superintendencia de Servicios de Certificación Electrónica}}{Caracas}{Asesoría de seguridad durante la implementación de los servicios web del proyecto para consejos comunales}{Tecnologías Involucradas: Firewall, MySQL, PHP5, Hardening, Balanceo de Carga con DNS usando multiples punteros de tipo A }{}
+
+\cventry{Noviembre 2006--\\Diciembre 2007}{Asesor Externo}{\bfseries{Distrito Tecnológico Social AIT PDVSA Mérida}}{Mérida}{Implementación de la Infraestructura de Networking y asesor en las siguientes áreas: Seguridad Lógica, Servicios de Red, Redes Inalámbricas}{}{}
+
+\cventry{Noviembre 2004--\\Julio 2006}{Desarrollador}{\bfseries{IntranetHome C.A. - Contratista DirectTV}}{San Cristóbal}{Desarrollador Líder, de la aplicación de control de instalaciones y servicios para las contratistas de DIRECTV de la región Occidental}{Tecnologías Involucradas: PHP5, JAVA SCRIPT, PERL, XHTML, CSS, SQL.}{}
+
+\section{Intereses}
+\cvitem{Diseño}{\small Amante del Diseño y la Fotografía.}
+\cvitem{Deportes}{\small Natación, Montañismo, Parapente, Paracaidismo, Motocross}
+\cvitem{Bricolaje}{\small Amante de las maquinas y herramientas para trabajo con madera, metal y plastico}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `walter.tex'.
