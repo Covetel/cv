@@ -1,0 +1,204 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{../template/moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Carlos}
+\familyname{Paredes}
+\title{Carlos Paredes Curriculum Vítae}               % optional, remove the line if not wanted
+\address{San Rafael via Cordero Sector Paramito House 1-56}{State Táchira, Bolivarian Republic of Venezuela}% optional, remove the line if not wanted
+\mobile{+58(416)5023757}                    % optional, remove the line if not wanted
+%\phone{+58(276)4169352}                          % optional, remove the line if not wanted
+%\fax{}
+\email{capsafa@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{goo.gl/eTlJu}                % optional, remove the line if not wanted
+\extrainfo{} % optional, remove the line if not wanted
+\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Personal Information}
+\cvitem{Place of Birth}{\small San Cristóbal - State Táchira - Bolivarian Republic of Venezuela}
+\cvitem{Date of Birth}{\small February 28 of 1986}
+\cvitem{Marital Status}{\small Single}
+\cvitem{Passport Number}{\small 068495433}
+\cvitem{Identification Document}{\small V-17.812.677}
+\cvitem{Skype}{\small aphu\_ane}
+
+\section{Education}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\cventry{2010--2012}{Undergraduate}{Instituto Universitario de
+Tecnología Agro Industrial Región los Andes}{San Cristóbal}{Computer Engineering}{Computer Engineer}
+
+\cventry{2004--2009}{Undergraduate}{University Institute of Technology Agro
+Industrial Región los Andes}{San Cristóbal}{Higher Technical University in Computer}{}
+
+\section{Idioms}
+\cvlanguage{Spanish}{Native}{Reading, Writing, Comprehension}
+\cvlanguage{English}{Intermediate}{{Reading, Writing, Comprehension}}
+
+\section{Computer Skills}
+\cvcomputer{\bfseries{Operating Systems}}{
+	Debian GNU/Linux (Especialmente), 
+    Ubuntu, 
+    Knoppix, 
+    Mandrake, 
+	Windows (NT-2000-XP-Vista-7)
+}{\bfseries{Administration}}{
+	OpenLDAP, 
+	DNS, DHCP,
+	Postfix, 
+	Dovecot, 
+	Samba, 
+	OpenVPN, 
+	OpenSSL, 
+	Git, 
+    FAI, 
+	Apache (Mod SSL, Mod Perl, Mod PHP)
+}
+\cvcomputer{\bfseries{Programming}}{
+	\textsc{Pascal}, 
+	C,
+	C++,
+	SQL,
+    Java
+}{\bfseries{Scripting}}{
+	Perl (Especialmente), 
+	JavaScript,
+	Bash, 
+	PHP, 
+ 	Ruby
+}
+\cvcomputer{\bfseries{Libraries}}{
+	Net::LDAP,
+	DBI,
+	DBIx::Class,
+	Catalyst,
+	HTML::FormFu,
+	Config::General,
+    Template::Toolkit, 
+	Catalyst::Controller::REST,
+	Catalyst::Controller::SOAP,
+	Catalyst::Model::SOAP,
+	Catalyst::View::GD,
+	Catalyst::Model::LDAP,
+	Moose,
+	Data::Dumper,
+    File::Basename
+}{\bfseries{Typography and Design}}{
+	\LaTeX, 
+    OpenOffice, 
+    Microsft Office, 
+	Adobe Photoshop, 
+    Adobe Illustrator,
+    Adobe Photoshop,
+    Adobe Flash, 
+	Inkscape, 
+	Gimp
+}
+\cvcomputer{\bfseries{Web Development}}{
+	Catalyst Framework,
+	XML, 
+	HTML, 
+	XHTML, 
+	CSS, 
+	AJAX, 
+    Adobe Dreamweaver, 
+	REST,
+	Patrones de Diseño
+}{\bfseries{Data Base}}{
+	PostgreSQL, 
+	SQLite, 
+	MySQL, 
+    MongoDB,
+    Firebird 
+}
+\cvcomputer{\bfseries{Virtualization}}{
+    OpenVZ, 
+    KVM, 
+    VMware, 
+    Proxmox,
+    Virtualbox
+}{\bfseries{Microsoft}}{
+	Windows Server 2000/2003, 
+	Windows Management Instrumentation (WMI), 
+	Win32::Process::Info, 
+    Win32::OLE, 
+    Active Directory, 
+	Active Directory Service Interfaces (ADSI), 
+    Microsoft Exchange, 
+}
+
+\section{Skills in Electronics}
+\cvcomputer{\bfseries{Instrumentation}}{
+	Cautin management, and basic construction Multimeter circuit
+printed.}{}{}
+
+\section{Courses}
+\cvitem{May 2005--June 2005}{Competitor}{Repair and Maintenance of Computer Equipment.}{ San Cristóbal State Táchira, Bolivarian Republic of Venezuela / Instituto Universitario de la Frontera (IUFRONT)}{Duration: 16 hours (Ing. Vidermid Sánchez.)}{}{}
+
+\section{Experience}
+
+\subsection{Vocational}
+\cvitem{Present}{Developer}{Asociación Cooperativa Venezolana de Tecnologías Libres R.S.(COVETEL)}{ San Cristóbal State Táchira Bolivarian Republic of Venezuela}{ \\ Responsibilities: Developer.}{}{}
+
+\bigskip
+
+\cvitem{2005--2007}{Head of Technical Services Department}{Distributor PC-Arts}{ San Cristóbal State Táchira Bolivarian Republic of Venezuela}{ \\ Responsibilities: Monitor and work in the area maintenance of computer equipment, printers. Support the sales and storage.}{}{}
+
+\section{Hobbies}
+\cvline{Sports}{\small Soccer, Olympic Wrestling, Judo.}
+\cvline{Furnishings}{\small Construction and Mechanics..}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `walter.tex'.
